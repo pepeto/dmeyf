@@ -13,7 +13,7 @@ require("lightgbm")
 
 setwd("~/buckets/b1/")
 
-#cargo el dataset donde voy a entrenar
+#cargo el dataset donde voy a entrenar.
 dataset  <- fread("./datasetsOri/paquete_premium_202009.csv")
 
 #paso la clase a binaria que tome valores {0,1}  enteros
